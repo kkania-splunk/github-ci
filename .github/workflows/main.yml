@@ -50,4 +50,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           extra_plugins: |
-            @google/semantic-release-replace-plugin
+            semantic-release-replace-plugin
